@@ -11,5 +11,5 @@ server.get("*",(req,res) => {
 });
 
 server.listen(port, () => {
-    console.log("Listeing on port", port);
+    console.log("Listening on port", port);
 });
